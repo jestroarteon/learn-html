@@ -1,0 +1,46 @@
+body{
+    font-family: 'Gloria Hallelujah', cursive;
+    background: linear-gradient(to right, #115f83, #455b77);
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(181, 204, 204);
+    font-size: 25px;
+    border-bottom: 5px ridge rgb(167, 181, 181);
+    border-radius: 10px 5% 5%;
+
+    animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    0%, 20%, 60%,  80%, 92%{
+        color: #1a6478;
+        text-shadow: none;
+    }
+    18.1%,  30%, 50%, 65%, 90%, 92.1%, 100%{
+        color: #9cd3d4;
+        text-shadow: 0 0 10px hsl(194, 83%, 67%), 0 0 20px hsl(194, 83%, 67%), 0 0 40px hsl(194, 83%, 67%), 0 0 80px hsl(194, 83%, 67%), 0 0 160px hsl(194, 83%, 67%), 0 0 400px hsl(194, 83%, 67%);
+    }
+}
+#ma_img{
+    width: 500px;
+    height: 250px;
+    border-radius: 100px 5% 50px 3%;
+    border: 5px dotted #3c95be;
+}
+a{
+    color: rgb(111, 169, 169);
+}
+.first{
+    width: 40%;
+    border-right: 3px solid rgb(167, 181, 181);
+    padding-right: 150px;
+}
+.second{
+    width: 40%;
+}
+.two{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}

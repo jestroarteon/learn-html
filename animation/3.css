@@ -1,0 +1,24 @@
+.changeSize img{
+    width: 80px; 
+    animation: change-size-img 3s  1s infinite;
+}
+     
+@keyframes change-size-img {
+    0%{
+        margin-top: 0px;
+        margin-left: 0px;
+        box-shadow: 0 0 0 0 rgba(25, 228, 167, 0);
+        border-radius: 50%;
+    }
+    70% {
+        border-radius: 50%;
+        box-shadow: 0 0 0 10px rgba(125, 241, 203, 0.4);
+    }
+    100%{
+        margin-top: 200px;
+        margin-left: 100px;
+        width: 200px;
+        box-shadow: 0 0 0 0 rgba(25, 248, 144, 0);
+        border-radius: 50%;
+    }
+}

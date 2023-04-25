@@ -1,0 +1,56 @@
+:root{
+    --onecolooor: #C0EEF2;
+    --twocoloor: #537FE7;
+}
+.main {
+    background-color: var(--onecolooor);
+    width: 600px;
+    padding: 30px;
+    margin-top: 30px;
+    margin: 0 auto;
+    color: var(--twocoloor);
+    border: 2px solid var(--twocoloor);
+  }
+  
+  h1{
+    text-align: center;
+    color: var(--twocoloor);
+    font-size: 20px;
+  }
+  
+  .label {
+    font-size: 18px;
+    color: var(--twocoloor);
+  }
+  
+  .item {
+    border: 2px solid var(--twocoloor);
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .button {
+    display: block;
+    color: var(--twocoloor);
+    background-color: var(--onecolooor);
+    border: 2px solid var(--twocoloor);
+    padding: 10px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    color: var(--twocoloor);
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .description {
+    background-color: var(--onecolooor);
+    border: 2px solid var(--twocoloor);
+    margin-top: 30px;
+  }
+  
+  .capital {
+    font-size: 20px;
+    color: var(--twocoloor);
+  }

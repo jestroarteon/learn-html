@@ -1,0 +1,32 @@
+:root{
+    --white: white;
+    --red: red;
+}
+p{
+    color: var(--white);
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+#a{
+    border: 2px solid var(--red);
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    margin-left: 50px;
+}
+a:hover{
+    background-color: var(--red);
+}
+h1{
+    color: var(--red);
+    margin-left: 50px;
+}
+body{
+    background-color: black;
+}
+.all{
+    border: 2px solid var(--white);
+    border-radius: 5px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}

@@ -1,0 +1,68 @@
+.wrapper{
+    width: 100%;
+}
+body{
+    background-image: url(img/bg.png);
+    margin: 0%;
+    height: 73vh;
+}
+.form-conteiner{
+    width: 400px;
+    background-color: white;
+    margin: 200px auto;
+}
+.header a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 26px;
+    padding-top: 10px;
+}
+.header{
+    width: 100%;
+    height: 50px;
+}
+.reg{
+    float: left;
+    color: #8032e4;
+}
+.log{
+    float: right;
+    background-color: #8032e4;
+    color: white;
+}
+.log, .reg{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.form{
+    padding: 20px;
+}
+input{
+    padding:5px 5px 5px 10px;
+    margin: 10px;
+    width: 80%;
+    border: 3px solid rgb(204, 204, 204);
+    border-radius: 10px;
+}
+input:focus{
+    outline: 0;
+    border: 3px solid #b176ff;
+}
+input[type="checkbox"]{
+    width: auto;
+    margin-right: 0;
+}
+#male{
+    background: url(img/email.png) no-repeat 3px 1px;
+    background-size: auto 90%;
+    
+}
+#name{
+    background: url(img/user.png) no-repeat 3px 1px;
+    background-size: auto 90%;
+}
+#pass{
+    background: url(img/pass.png) no-repeat 3px 1px;
+    background-size: auto 90%;
+}

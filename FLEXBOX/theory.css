@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    border: 3px solid red;
+}
+.element{
+    width: 150px;
+    height: 150px;
+    border: 3px solid green;
+    background-image: url(https://i.pinimg.com/736x/b3/31/d6/b331d6d35d9de9cd10dc157d72f5c61b.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

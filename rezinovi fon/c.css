@@ -1,0 +1,12 @@
+.middle{
+    background: url(img/middle.png) repeat-y;
+}
+.top{
+    background: url(img/top.png) no-repeat left top;
+}
+.bottom{
+    background: url(img/bottom.png) no-repeat left bottom;
+}
+.content{
+    padding-left: 250px;
+}
